@@ -11,15 +11,19 @@ is pressed.)
       <head>
         <title>JavaScript Alert</title>
 
-       <script src="testing.js"></script>
       </head>
 
-      <body>
-        <form name="myform">
-          <input type="text" id="Alerting" name="Field" placeholder="Enter here!"> 
-          <input type="button" name="button" value="Submit" onClick="javaScriptAlert()">
+      <body ng-app="learningAngular">
+        <form name="myform" ng-controller="FormCtrl">
+          <input type="text" id="Alerting" name="Field" placeholder="Enter here!" ng-model="inputField"> 
+
+          <p>{{inputField}}</p>
+          
+          <!-- <input type="button" name="button" value="Submit" onClick="javaScriptAlert()"> -->
+          <input type="button" name="button" value="Submit" ng-click="clickedButton()">
 
         </form>
-
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src="testing.js"></script>
       </body>
 </html>

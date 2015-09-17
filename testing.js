@@ -11,4 +11,15 @@ function javaScriptAlert()
   // alert(inputField);
   alert(document.getElementById('Alerting').value);  //you could either have this line, or BOTH of those above.
 }
-        
+
+angular.module('learningAngular', [])
+  .controller('FormCtrl', ['$scope', function ($scope) {
+
+    // $scope.inputField = '';
+
+    $scope.clickedButton = function () {
+      console.log('clickedButton');
+      alert($scope.inputField);
+    };
+    
+  }]);
