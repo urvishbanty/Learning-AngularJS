@@ -7,19 +7,23 @@ is pressed.)
 -->
 <!DOCTYPE html>
 
-<HTML>
-      <HEAD>
-        <TITLE>JavaScript Alert</TITLE>
+<html>
+      <head>
+        <title>JavaScript Alert</title>
 
-       <script src="testing.js"></script>
-      </HEAD>
+      </head>
 
-      <BODY>
-        <FORM NAME="myform">
-          <INPUT TYPE="text" ID="Alerting" NAME="Field" VALUE="Enter here!"> 
-          <INPUT TYPE="button" NAME="button" Value="Submit" onClick="javaScriptAlert()">
+      <body ng-app="learningAngular">
+        <form name="myform" ng-controller="FormCtrl">
+          <input type="text" id="Alerting" name="Field" placeholder="Enter here!" ng-model="inputField"> 
 
-        </FORM>
+          <p>{{inputField}}</p>
+          
+          <!-- <input type="button" name="button" value="Submit" onClick="javaScriptAlert()"> -->
+          <input type="button" name="button" value="Submit" ng-click="clickedButton()">
 
-      </BODY>
-</HTML>
+        </form>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src="testing.js"></script>
+      </body>
+</html>

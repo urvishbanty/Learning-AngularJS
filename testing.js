@@ -6,8 +6,20 @@
 
 function javaScriptAlert()
 {
-	var inputField = document.myform.Field.value;
+	// var inputField = document.myform.Field.value;
              
-    alert( document.getElementById('Alerting').value = inputField);
+  // alert(inputField);
+  alert(document.getElementById('Alerting').value);  //you could either have this line, or BOTH of those above.
 }
-        
+
+angular.module('learningAngular', [])
+  .controller('FormCtrl', ['$scope', function ($scope) {
+
+    // $scope.inputField = '';
+
+    $scope.clickedButton = function () {
+      console.log('clickedButton');
+      alert($scope.inputField);
+    };
+    
+  }]);
