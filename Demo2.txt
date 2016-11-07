@@ -1,3 +1,7 @@
 Hi, this is for testing file too.
 
+<<<<<<< HEAD
 I am Working as a Front End Developer.
+=======
+Hi Bro!!! MY name is Urvish.
+>>>>>>> 03bf59bccb6a5f434da3edc1c6e5759f57a08daa
