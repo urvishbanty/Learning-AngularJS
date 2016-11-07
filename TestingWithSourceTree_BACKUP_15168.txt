@@ -1,0 +1,9 @@
+Hi, my name is urvish.
+this is updated file.
+
+for testing
+<<<<<<< HEAD
+I am checking and push it in this text file to understand conflict concept.
+=======
+I am checking and push in this text file.
+>>>>>>> 026232f738222d983f59cb042c3cee58245f3ccd
