@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 HI this is my lappy.
+=======
+
+This is Demo2 Page.
+
+Hi this is urvish patel.
+and working as a front end developer.
+this is detail demo page.
+Hi, my name is urvish.
+this is updated file.
+
+for testing
+I am checking and push in this text file for understand conflict concept.
+
+>>>>>>> 7b01b480a59edb2675ca05e4b88e588c528a3078
