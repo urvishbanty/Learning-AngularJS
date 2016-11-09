@@ -8,6 +8,6 @@ function javaScriptAlert()
 {
 	var inputField = document.myform.Field.value;
              
-    alert( document.getElementById('Alerting').value = inputField);
+    alert( document.getElementById('Alert').value = inputField);
 }
         
